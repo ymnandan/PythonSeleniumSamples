@@ -9,5 +9,4 @@ element=driver.find_element_by_name("q")
 element.send_keys("hello world")
 
 element.submit()
-#browser close code follows here
 driver.quit()
